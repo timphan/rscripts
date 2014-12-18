@@ -16,3 +16,4 @@ lapply(1:length(data), function(i) write.csv(data[[i]],
                                              file = paste0(names(data[i]), ".csv"),
                                              row.names = FALSE))
 
+ 
